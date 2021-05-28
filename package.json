@@ -1,0 +1,32 @@
+{
+  "name": "react-dev-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onlyadaydreamer/react-dev-loader.git"
+  },
+  "keywords": [
+    "react",
+    "dev",
+    "loader"
+  ],
+  "author": "onlyadaydreamer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onlyadaydreamer/react-dev-loader/issues"
+  },
+  "homepage": "https://github.com/onlyadaydreamer/react-dev-loader#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/plugin-syntax-jsx": "^7.12.13",
+    "@babel/preset-env": "^7.14.1",
+    "@babel/preset-react": "^7.13.13",
+    "loader-utils": "^2.0.0",
+    "webpack": "^5.38.1"
+  }
+}
