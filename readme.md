@@ -29,8 +29,10 @@
 
 `options` 提供了一个可选项
 
-- `exclude`
+- `exclude` 忽略不需要的文件或文件夹
 
 ### 效果截图
 
 ![](/assets/20210602-331923.png)
+
+如果你有其他需求可以来[github](https://github.com/onlyadaydreamer/react-dev-loader)提 issue 哦~
