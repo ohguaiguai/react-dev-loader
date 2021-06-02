@@ -8,7 +8,7 @@ function loader(source, ast) {
   if (options && options.exclude && options.exclude.test(this.resource)) {
     return source; // 不转换，直接返回
   }
-  // console.log(this.resource);
+  console.log(this.resource);
   let reactDev = new ReactDev(options);
   // console.log(source);
   let target = reactDev.generate(source);
