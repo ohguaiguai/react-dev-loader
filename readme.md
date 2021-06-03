@@ -1,4 +1,4 @@
-# react-dev-loader [![npm version](https://badge.fury.io/js/react-dev-loader.svg)](https://badge.fury.io/js/react-dev-loader) ![](https://img.shields.io/badge/webpack-loader-yellowgreen)
+# react-dev-loader [![npm version](https://badge.fury.io/js/react-dev-loader.svg)](https://badge.fury.io/js/react-dev-loader) ![](https://img.shields.io/badge/webpack-loader-blue)
 
 > 一个用来辅助 react 开发的工具
 
