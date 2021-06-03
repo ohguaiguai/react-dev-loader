@@ -33,6 +33,29 @@
 
 ### 效果截图
 
-![](/assets/20210602-331923.png)
+![](/assets/20210603-474264.png)
 
 如果你有其他需求可以来[github](https://github.com/onlyadaydreamer/react-dev-loader)提 issue 哦~
+
+! tips:
+
+1. 高阶组件需要忽略掉
+2. 用在 hooks 中的方法所在的文件不要定以为 tsx 后缀，如果这么写需要忽略。例如:
+
+a.tsx
+
+```tsx
+export default a() {}
+```
+
+app.tsx
+
+```tsx
+import a from 'a';
+
+export default App() {
+  useEffect(() => {
+    a();
+  }, [])
+}
+```
