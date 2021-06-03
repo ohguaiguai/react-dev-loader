@@ -12,6 +12,9 @@ function loader(source, ast) {
   let reactDev = new ReactDev(options);
   // console.log(source);
   let target = reactDev.generate(source);
+  if (/Remove/.test(this.resource)) {
+    console.log(target);
+  }
   return target;
 }
 
