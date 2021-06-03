@@ -1,12 +1,16 @@
-## 一个用来辅助 react 开发的工具
+# react-dev-loader [![npm version](https://badge.fury.io/js/react-dev-loader.svg)](https://badge.fury.io/js/react-dev-loader) ![](https://img.shields.io/badge/webpack-loader-yellowgreen)
 
-### 目前提供如下功能：
+> 一个用来辅助 react 开发的工具
+
+## 目前提供如下功能：
 
 1. 每个组件挂载和卸载时打印 log
 2. 组件更新时打印更新花费时间
 3. 组件更新时打印引起组件更新的 prop
 
-### 使用方法
+同时支持类组件和函数组件
+
+## 使用方法
 
 ```js
  {
@@ -31,7 +35,7 @@
 
 - `exclude` 忽略不需要的文件或文件夹
 
-### 效果截图
+## 效果截图
 
 ![](/assets/20210603-474264.png)
 
