@@ -13,16 +13,12 @@ function loader(source) {
   let reactDev = new ReactDev(options);
 
   let target = source;
-  // let isComponent = true;
+
   try {
     const paths = this.resource.split('/');
     const name = paths[paths.length - 1];
     const suffix = name.split('.')[1];
 
-    if (suffix !== 'tsx' && suffix !== 'jsx') {
-      // isComponent = false;
-      return target;
-    }
     target = reactDev.generate(source, name);
   } catch (e) {
     console.log(e);
