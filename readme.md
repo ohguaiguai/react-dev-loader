@@ -1,4 +1,4 @@
-# react-dev-loader ![](https://img.shields.io/badge/npm%20package-2.1.5-brightgreen) ![](https://img.shields.io/badge/webpack-loader-blue)
+# react-dev-loader ![](https://img.shields.io/badge/npm%20package-2.1.6-brightgreen) ![](https://img.shields.io/badge/webpack-loader-blue)
 
 > 一个用来辅助 react 开发的工具
 
@@ -8,7 +8,7 @@
 2. 组件更新打印更新花费时间
 3. 组件更新打印引起组件更新的 props
 
-同时支持类组件和函数组件。
+> 同时支持类组件和函数组件。
 
 另外，通过颜色来区分不同语义：
 
