@@ -6,6 +6,10 @@ function loader(source) {
   let options = loaderUtils.getOptions(this);
   // this.resource 当前正在转换的模块的绝对路径
 
+  // if (!/QuickAccessFlexbox/.test(this.resource)) {
+  //   return source;
+  // }
+
   if (options && options.exclude && options.exclude.test(this.resource)) {
     return source; // 不转换，直接返回
   }

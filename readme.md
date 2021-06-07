@@ -53,7 +53,7 @@ npm i react-dev-loader -D
 
 ## 效果截图
 
-![](/assets/20210604-259294.png)
+![](http://assets.onlyadaydreamer.top/20210604-259294.png)
 
 如果你有其他需求可以来[github](https://github.com/onlyadaydreamer/react-dev-loader)提 issue 哦~
 
