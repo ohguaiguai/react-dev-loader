@@ -1,4 +1,4 @@
-# react-dev-loader ![](https://img.shields.io/badge/npm%20package-2.1.8-brightgreen) ![](https://img.shields.io/badge/webpack-loader-blue)
+# react-dev-loader ![](https://img.shields.io/badge/npm%20package-2.2.8-brightgreen) ![](https://img.shields.io/badge/webpack-loader-blue)
 
 > 一个用来辅助 react 开发的工具
 
@@ -38,9 +38,10 @@
       },
 ```
 
-`options` 提供了一个可选项
+`options` 提供了 2 个可选项
 
 - `exclude` 忽略不需要的文件或文件夹
+- `verbose` 是否显示当前正在处理的模块路径，默认不显示
 
 ## 效果截图
 
