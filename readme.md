@@ -1,4 +1,4 @@
-# react-dev-loader ![](https://img.shields.io/badge/npm%20package-2.2.8-brightgreen) ![](https://img.shields.io/badge/webpack-loader-blue)
+# react-dev-loader ![](https://img.shields.io/badge/npm%20package-2.2.10-brightgreen) ![](https://img.shields.io/badge/webpack-loader-blue)
 
 > 一个用来辅助 react 开发的工具
 
@@ -18,6 +18,14 @@
 - 黄色，标识该行「打印了引起组件更新的属性」
 
 ## 使用方法
+
+安装
+
+```
+npm i react-dev-loader -D
+```
+
+配置
 
 ```js
  {
