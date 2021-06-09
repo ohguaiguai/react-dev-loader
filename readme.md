@@ -1,4 +1,4 @@
-# react-dev-loader ![](https://img.shields.io/badge/npm%20package-2.2.11-brightgreen) ![](https://img.shields.io/badge/webpack-loader-blue)
+# react-dev-loader ![](https://img.shields.io/badge/npm%20package-2.2.12-brightgreen) ![](https://img.shields.io/badge/webpack-loader-blue)
 
 > 一个用来辅助 react 开发的工具
 
@@ -12,10 +12,11 @@
 
 另外，通过颜色来区分不同语义：
 
-- 蓝色，正常行为
+- 蓝色，代表组件渲染
 - 绿色，代表第一次渲染
 - 红色，代表某一段时刻同一组件挂载了多次，需要重点排查
-- 黄色，标识该行「打印了引起组件更新的属性」
+- 黄色，标识该行打印了「引起组件更新的属性」
+- 灰色, 代表组件卸载
 
 ## 使用方法
 
