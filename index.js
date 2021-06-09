@@ -30,7 +30,7 @@ function loader(source) {
     if (options && options.verbose) {
       console.log(this.resource);
     }
-    target = reactDev.generate(source, name);
+    target = reactDev.generate(source, { name });
   } catch (e) {
     console.log(e);
   }
