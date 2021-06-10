@@ -1,4 +1,4 @@
-# react-dev-loader ![](https://img.shields.io/badge/npm%20package-2.2.12-brightgreen) ![](https://img.shields.io/badge/webpack-loader-blue)
+# react-dev-loader ![](https://img.shields.io/badge/npm%20package-2.2.13-brightgreen) ![](https://img.shields.io/badge/webpack-loader-blue)
 
 > 一个用来辅助 react 开发的工具
 
@@ -38,7 +38,7 @@ npm i react-dev-loader -D
               presets: ['@babel/preset-env', '@babel/preset-react'],
             },
           },
-          {
+          process.env.NODE_ENV === 'development' && {
             loader: 'react-dev-loader',
             options: {},
           },
@@ -60,4 +60,5 @@ npm i react-dev-loader -D
 
 ## tips
 
-组件一定要是 tsx 后缀或者是 jsx 后缀， ts、js 后缀的文件不会处理。
+- 组件一定要是 tsx 后缀或者是 jsx 后缀， ts、js 后缀的文件不会处理。
+- 注意区分环境, 确保只在开发环境下使用
