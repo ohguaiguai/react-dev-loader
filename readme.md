@@ -1,4 +1,4 @@
-# react-dev-loader ![](https://img.shields.io/badge/npm%20package-2.2.13-brightgreen) ![](https://img.shields.io/badge/webpack-loader-blue)
+# react-dev-loader ![](https://img.shields.io/badge/npm%20package-2.2.14-brightgreen) ![](https://img.shields.io/badge/webpack-loader-blue)
 
 > 一个用来辅助 react 开发的工具
 
@@ -30,7 +30,7 @@ npm i react-dev-loader -D
 
 ```js
  {
-        test: /\.js$/,
+        test: /\.(jsx|jsx)$/,
         use: [
           {
             loader: 'babel-loader',
@@ -47,6 +47,12 @@ npm i react-dev-loader -D
       },
 ```
 
+需要注意的是:
+
+- `react-dev-loader`要放在最下面，也就是要最先执行。
+- 组件一定要是 `tsx` 后缀或者是 `jsx` 后缀， `ts`、`js` 后缀的文件不会处理。
+- 要区分环境, 确保只在开发环境下使用
+
 `options` 提供了 2 个可选项
 
 - `exclude` 忽略不需要的文件或文件夹
@@ -57,8 +63,3 @@ npm i react-dev-loader -D
 ![](http://assets.onlyadaydreamer.top/20210604-259294.png)
 
 如果你有其他需求可以来[github](https://github.com/onlyadaydreamer/react-dev-loader)提 issue 哦~
-
-## tips
-
-- 组件一定要是 tsx 后缀或者是 jsx 后缀， ts、js 后缀的文件不会处理。
-- 注意区分环境, 确保只在开发环境下使用
