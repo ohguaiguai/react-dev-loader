@@ -1,6 +1,6 @@
 {
   "name": "react-dev-loader",
-  "version": "2.2.13",
+  "version": "2.2.14",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,7 @@
   "homepage": "https://github.com/onlyadaydreamer/react-dev-loader#readme",
   "dependencies": {
     "@babel/core": "^7.14.0",
+    "@babel/plugin-syntax-decorators": "^7.14.5",
     "@babel/plugin-syntax-jsx": "^7.12.13",
     "@babel/preset-env": "^7.14.1",
     "@babel/preset-react": "^7.13.13",
