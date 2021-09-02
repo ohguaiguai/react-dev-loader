@@ -1,4 +1,4 @@
-# react-dev-loader ![](https://img.shields.io/badge/npm%20package-2.2.15-brightgreen) ![](https://img.shields.io/badge/webpack-loader-blue)
+# react-dev-loader ![](https://img.shields.io/badge/npm%20package-2.2.16-brightgreen) ![](https://img.shields.io/badge/webpack-loader-blue)
 
 > 一个用来辅助 react 开发的工具
 
@@ -60,6 +60,6 @@ npm i react-dev-loader -D
 
 ## 效果截图
 
-![](http://assets.onlyadaydreamer.top/20210604-259294.png)
+![](https://assets.onlyadaydreamer.top/react-dev-loader.png)
 
 如果你有其他需求可以来[github](https://github.com/onlyadaydreamer/react-dev-loader)提 issue 哦~
